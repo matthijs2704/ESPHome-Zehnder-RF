@@ -114,7 +114,7 @@ void ZehnderRF::setup() {
   // // RX power normal
   rfConfig.rx_power = nrf905::PowerNormal;
 
-  rfConfig.rx_address = 0x89816EA9;  // ZEHNDER_NETWORK_LINK_ID;
+  rfConfig.rx_address = 0xA55A5AA5;  // ZEHNDER_NETWORK_LINK_ID;
   rfConfig.rx_address_width = 4;
   rfConfig.rx_payload_width = 16;
 
